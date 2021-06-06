@@ -1,0 +1,14 @@
+Algoritmo Ejercicio8
+	x<-5
+	Escribir "Ingrese s para salir"
+	Mientras (x<50000) Hacer
+		leer A
+	Si A=="s" Entonces
+		Escribir "FIN"
+	SiNo
+			x<-x+5
+			Esperar 1 Segundos
+			Escribir x
+		Fin Si
+	Fin Mientras
+FinAlgoritmo
